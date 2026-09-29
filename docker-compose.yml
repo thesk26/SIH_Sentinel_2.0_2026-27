@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  sentinel:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sentinel_core
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    volumes:
+      - sentinel_data:/app/applet/data
+    restart: unless-stopped
+
+volumes:
+  sentinel_data:

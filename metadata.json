@@ -1,0 +1,6 @@
+{
+  "name": "SENTINEL - Autonomous Cyber Defense & Network Attack Forecasting",
+  "description": "Autonomous Cyber Defense & Network Attack Forecasting System with C++ telemetry collection, behavioral baselining, AI attack forecasting, explainable risk engine, and blockchain evidence integrity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

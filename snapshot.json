@@ -1,0 +1,188 @@
+{
+  "collector_version": "1.4.0-cpp20",
+  "device_id": "SENTINEL-PRIMARY-NODE",
+  "evidence_hash": "3b5c1b4ee941ae07e2feb6c374aeace2f635cf48bc84d15959d63ad693fe90ff",
+  "is_simulated": false,
+  "network_connections": [
+    {
+      "local_address": "127.0.0.1",
+      "local_port": 61398,
+      "protocol": "tcp",
+      "remote_address": "127.0.0.1",
+      "remote_port": 8000,
+      "state": "ESTABLISHED"
+    },
+    {
+      "local_address": "0.0.0.0",
+      "local_port": 3000,
+      "protocol": "tcp",
+      "remote_address": "0.0.0.0",
+      "remote_port": 0,
+      "state": "LISTEN"
+    },
+    {
+      "local_address": "0.0.0.0",
+      "local_port": 8080,
+      "protocol": "tcp",
+      "remote_address": "0.0.0.0",
+      "remote_port": 0,
+      "state": "LISTEN"
+    },
+    {
+      "local_address": "169.254.169.1",
+      "local_port": 8080,
+      "protocol": "tcp",
+      "remote_address": "169.254.169.126",
+      "remote_port": 26070,
+      "state": "ESTABLISHED"
+    },
+    {
+      "local_address": "7839DFFD45D7B1FE0000000001C00000",
+      "local_port": 64005,
+      "protocol": "tcp6",
+      "remote_address": "00470626000000000000000022011068",
+      "remote_port": 443,
+      "state": "ESTABLISHED"
+    },
+    {
+      "local_address": "0000000000000000FFFF00000100007F",
+      "local_port": 8000,
+      "protocol": "tcp6",
+      "remote_address": "0000000000000000FFFF00000100007F",
+      "remote_port": 61398,
+      "state": "ESTABLISHED"
+    },
+    {
+      "local_address": "00000000000000000000000000000000",
+      "local_port": 8000,
+      "protocol": "tcp6",
+      "remote_address": "00000000000000000000000000000000",
+      "remote_port": 0,
+      "state": "LISTEN"
+    }
+  ],
+  "network_io": {
+    "bytes_received": 418874557,
+    "bytes_sent": 3024391
+  },
+  "processes": [
+    {
+      "cmdline": "/bin/bash",
+      "exe_path": "/usr/bin/bash",
+      "memory_rss_bytes": 3932160,
+      "name": "start.sh",
+      "pid": 1,
+      "ppid": 0,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "nginx: master process nginx -g daemon off;",
+      "exe_path": "/usr/sbin/nginx",
+      "memory_rss_bytes": 11894784,
+      "name": "nginx",
+      "pid": 5,
+      "ppid": 1,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "/app/control-plane-api/control-plane-api",
+      "exe_path": "/app/control-plane-api/control-plane-api",
+      "memory_rss_bytes": 29396992,
+      "name": "control-plane-a",
+      "pid": 6,
+      "ppid": 1,
+      "thread_count": 8
+    },
+    {
+      "cmdline": "tail",
+      "exe_path": "/usr/bin/tail",
+      "memory_rss_bytes": 3358720,
+      "name": "tail",
+      "pid": 14,
+      "ppid": 1,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "nginx: worker process",
+      "exe_path": "/usr/sbin/nginx",
+      "memory_rss_bytes": 6324224,
+      "name": "nginx",
+      "pid": 15,
+      "ppid": 5,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "nginx: worker process",
+      "exe_path": "/usr/sbin/nginx",
+      "memory_rss_bytes": 6463488,
+      "name": "nginx",
+      "pid": 16,
+      "ppid": 5,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "npm run dev --port 3000 --host 0.0.0.0",
+      "exe_path": "/usr/local/bin/node",
+      "memory_rss_bytes": 96112640,
+      "name": "npm run dev --p",
+      "pid": 26,
+      "ppid": 6,
+      "thread_count": 11
+    },
+    {
+      "cmdline": "sh",
+      "exe_path": "/usr/bin/dash",
+      "memory_rss_bytes": 1839104,
+      "name": "sh",
+      "pid": 38,
+      "ppid": 26,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "node",
+      "exe_path": "/usr/local/bin/node",
+      "memory_rss_bytes": 285175808,
+      "name": "node",
+      "pid": 39,
+      "ppid": 38,
+      "thread_count": 18
+    },
+    {
+      "cmdline": "sh",
+      "exe_path": "/usr/bin/dash",
+      "memory_rss_bytes": 2035712,
+      "name": "sh",
+      "pid": 3098,
+      "ppid": 6,
+      "thread_count": 1
+    },
+    {
+      "cmdline": "./build/sentinel_collector",
+      "exe_path": "/app/applet/build/sentinel_collector",
+      "memory_rss_bytes": 6463488,
+      "name": "sentinel_collec",
+      "pid": 3099,
+      "ppid": 3098,
+      "thread_count": 1
+    }
+  ],
+  "security_events": [],
+  "system": {
+    "architecture": "x86_64",
+    "cpu_percent": 0.0,
+    "disk_percent": 0.3056414917717331,
+    "disk_total_bytes": 540987240448,
+    "disk_used_bytes": 1653481472,
+    "hostname": "localhost",
+    "load_avg_15m": 0.0,
+    "load_avg_1m": 0.0,
+    "load_avg_5m": 0.0,
+    "memory_percent": 44.58608627319336,
+    "memory_total_bytes": 4294967296,
+    "memory_used_bytes": 1914957824,
+    "os_name": "Linux",
+    "os_version": "4.19.0-gvisor",
+    "uptime_seconds": 268
+  },
+  "timestamp": 1789887446436
+}
